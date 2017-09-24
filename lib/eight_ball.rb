@@ -27,6 +27,8 @@ class EightBall
     ]
   end
 
-
+  def shake
+    @messages.sample
+  end
 
 end
