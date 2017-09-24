@@ -32,11 +32,12 @@ class EightBall
   end
 
   def thinking
-    sleep(0.5)
+    puts ""
+    sleep(2)
     puts "hmm... let me think about that one"
-    sleep(1)
+    sleep(3)
     puts "..."
-    sleep(0.5)
+    sleep(4)
   end
 
 end
