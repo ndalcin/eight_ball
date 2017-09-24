@@ -8,6 +8,11 @@ puts "================================"
 puts "Welcome to the Magic Eight Ball!"
 puts "================================"
 puts "What would you like to ask?"
-question = gets.chomp
 
+question = gets.chomp
 answer = eight_ball.shake
+
+eight_ball.thinking
+
+puts "You asked: #{question}"
+puts "#{answer}"

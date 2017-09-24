@@ -31,4 +31,12 @@ class EightBall
     @messages.sample
   end
 
+  def thinking
+    sleep(0.5)
+    puts "hmm... let me think about that one"
+    sleep(1)
+    puts "..."
+    sleep(0.5)
+  end
+
 end
